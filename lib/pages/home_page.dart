@@ -27,6 +27,7 @@ class _HomeState extends State<Home> {
         opacityLevel = opacityLevel == 0 ? 1.0 : 0.0;
       });
   }
+  
   @override
   Widget build(BuildContext context) {
     return Scaffold(
